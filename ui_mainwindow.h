@@ -601,7 +601,7 @@ public:
         label_24->setGeometry(QRect(430, 200, 101, 31));
         setBtn = new QPushButton(centralWidget);
         setBtn->setObjectName(QString::fromUtf8("setBtn"));
-        setBtn->setGeometry(QRect(490, 280, 101, 31));
+        setBtn->setGeometry(QRect(540, 290, 101, 31));
         label_51 = new QLabel(centralWidget);
         label_51->setObjectName(QString::fromUtf8("label_51"));
         label_51->setGeometry(QRect(650, 240, 61, 31));

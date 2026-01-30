@@ -52,6 +52,7 @@ public slots:
     void on_backZero();
 
     void processFrame(const QByteArray& frame);
+    void processFrame92(const QByteArray& frame);
     quint8 calculateChecksum(const QByteArray &data);
 private:
         QMutex mutex;
